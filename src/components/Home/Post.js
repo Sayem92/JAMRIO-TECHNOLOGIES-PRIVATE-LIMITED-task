@@ -21,8 +21,7 @@ const Post = ({post}) => {
             <hr className="w-32 my-2 text-blue-500" />
 
             <p className="text-sm text-gray-500 dark:text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores
-                praesentium, alias nam? Tempore
+            Dogs are known for their loyalty, love and companionship. They bring happiness and joy to people's lives and are considered part of ...
             </p>
 
             <button className="px-6 py-2 mt-5 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-700 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">

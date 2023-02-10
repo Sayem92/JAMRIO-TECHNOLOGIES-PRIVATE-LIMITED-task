@@ -22,6 +22,13 @@ const PostDetails = () => {
                             <h1 className="block mt-4 text-2xl font-semibold text-gray-800  dark:text-white">
                                 {text}
                             </h1>
+                        <div className='flex gap-3 mt-3'>
+
+                        {
+                            tags?.map(tag =><p className='px-2 py-1 bg-green-500 hover:bg-green-600 cursor-pointer text-white rounded-md'>{tag}</p>)
+                        }
+                        </div>
+                      
 
                             <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                                 Dogs are one of the most beloved and popular pets in the world, and it's easy to see why. Their affectionate, loyal, and eager-to-please nature make them the perfect companion for people of all ages. With a variety of breeds available, each with their own unique personality and characteristics, it's easy to find the perfect match for your lifestyle. <br /><br />

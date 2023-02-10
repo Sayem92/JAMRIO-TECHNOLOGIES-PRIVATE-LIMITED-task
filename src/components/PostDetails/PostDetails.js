@@ -30,7 +30,7 @@ const PostDetails = () => {
                         <div className='flex gap-3 mt-3'>
 
                         {
-                            tags?.map(tag =><p className='px-2 py-1 bg-green-500 hover:bg-green-600 cursor-pointer text-white rounded-md'>{tag}</p>)
+                            tags?.map((tag, i)=><p key={i} className='px-2 py-1 bg-green-500 hover:bg-green-600 cursor-pointer text-white rounded-md'>{tag}</p>)
                         }
                         </div>
                       

@@ -46,6 +46,19 @@ const Navbar = () => {
                             Home
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink
+                            style={({ isActive }) =>
+                                isActive ? activeStyle : undefined
+                            }
+                            to="/aboutUs"
+                            aria-label="About us"
+                            title="About us"
+                            className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                            About us
+                        </NavLink>
+                    </li>
 
                 </ul>
                 <div className="lg:hidden">
@@ -118,6 +131,19 @@ const Navbar = () => {
                                                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                             >
                                                 Home
+                                            </NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink
+                                                style={({ isActive }) =>
+                                                    isActive ? activeStyle : undefined
+                                                }
+                                                to="/aboutUs"
+                                                aria-label="About us"
+                                                title="About us"
+                                                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                                            >
+                                                About us
                                             </NavLink>
                                         </li>
 

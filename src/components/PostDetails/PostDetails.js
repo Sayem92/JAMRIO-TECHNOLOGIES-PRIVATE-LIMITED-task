@@ -19,7 +19,7 @@ const PostDetails = () => {
                         <div className="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
                             <p className="text-3xl text-blue-500 uppercase">👍{likes}</p>
 
-                            <h1 className="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white">
+                            <h1 className="block mt-4 text-2xl font-semibold text-gray-800  dark:text-white">
                                 {text}
                             </h1>
 

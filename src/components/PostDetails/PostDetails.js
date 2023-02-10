@@ -1,11 +1,16 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Loader from '../Loader/Loader';
 
 const PostDetails = () => {
     const details = useLoaderData();
     const { image, likes, owner, tags, text, publishDate } = details;
     const shortDate = publishDate.slice(0, 10);
-    // console.log(details)
+    
+
+    if (!image) {
+        return <Loader></Loader>
+    }
 
     return (
         <div>
